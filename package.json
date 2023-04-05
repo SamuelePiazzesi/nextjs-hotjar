@@ -1,0 +1,27 @@
+{
+	"name": "nextjs-hotjar",
+	"version": "1.0.0",
+	"description": "",
+	"source": "src/index.ts",
+	"main": "dist/main.js",
+	"module": "dist/module.js",
+	"types": "dist/types.d.ts",
+	"scripts": {
+		"build": "parcel build",
+		"build:watch": "parcel watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SamuelePiazzesi/nextjs-hotjar.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SamuelePiazzesi/nextjs-hotjar/issues"
+	},
+	"homepage": "https://github.com/SamuelePiazzesi/nextjs-hotjar#readme",
+	"devDependencies": {
+		"parcel": "^2.8.3"
+	}
+}
