@@ -64,3 +64,10 @@ typings/
 dist/
 .cache/
 .parcel-cache/
+
+# Next.js build output
+.next
+
+#PNPM related files
+.pnpm-debug.log
+.pnpm-lock.yaml
