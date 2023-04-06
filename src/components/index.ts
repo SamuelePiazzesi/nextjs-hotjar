@@ -1,1 +1,1 @@
-export { Hotjar } from "./hotjar/hotjar";
+export { Hotjar } from "./hotjar/Hotjar";
