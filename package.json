@@ -13,7 +13,7 @@
 		"test": "vitest run",
 		"test:watch": "vitest watch",
 		"ci": "pnpm run lint && pnpm run test && pnpm run build",
-		"publish": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+		"release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
 	},
 	"repository": {
 		"type": "git",
