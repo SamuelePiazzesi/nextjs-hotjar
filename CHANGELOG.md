@@ -1,5 +1,11 @@
 # nextjs-hotjar
 
+## 1.0.3
+
+### Patch Changes
+
+- 3c062a7: update folders
+
 ## 1.0.2
 
 ### Patch Changes
