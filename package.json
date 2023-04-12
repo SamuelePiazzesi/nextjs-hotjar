@@ -19,8 +19,8 @@
 		"type": "git",
 		"url": "git+https://github.com/SamuelePiazzesi/nextjs-hotjar.git"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "Samuele Piazzesi",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/SamuelePiazzesi/nextjs-hotjar/issues"
 	},
