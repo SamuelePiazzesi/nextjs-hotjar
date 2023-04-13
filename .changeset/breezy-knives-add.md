@@ -1,0 +1,5 @@
+---
+"nextjs-hotjar": patch
+---
+
+fix
