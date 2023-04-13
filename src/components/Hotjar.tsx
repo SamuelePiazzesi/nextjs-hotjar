@@ -4,7 +4,7 @@ import Script, { ScriptProps } from "next/script";
 type HotJarProps = {
 	id: string;
 	sv: number;
-	strategy?: ScriptProps["strategy"];
+	strategy?: Exclude<ScriptProps["strategy"], "worker">;
 };
 
 export interface WindowWithHotjar extends Window {

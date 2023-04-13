@@ -21,7 +21,7 @@ import { Hotjar } from "nextjs-hotjar";
 const App = ({ Component, pageProps }) => {
 	return (
 		<>
-			<Hotjar id={YOUR_APP_ID} v={YOUR_APP_VERSION} />
+			<Hotjar id={YOUR_APP_ID} sv={YOUR_APP_SCRIPT_VERSION} />
 			<Component {...pageProps} />
 		</>
 	);
@@ -29,3 +29,11 @@ const App = ({ Component, pageProps }) => {
 
 export default App;
 ```
+
+## Props
+
+| Name     | Type                                                  | Required | Description                                                                                                                                       |
+| -------- | ----------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id       | string                                                | Yes      | Your Hotjar app ID.                                                                                                                               |
+| sv       | string                                                | Yes      | Your Hotjar app script version.                                                                                                                   |
+| strategy | 'beforeInteractive', 'afterInteractive', 'lazyOnload' | No       | Script strategy oprions provided by Nextjs Script package. We excluded the 'worker ' strategy since is not compatibile with Hotkar loading system |
