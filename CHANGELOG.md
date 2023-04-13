@@ -1,5 +1,12 @@
 # nextjs-hotjar
 
+## 1.0.5
+
+### Patch Changes
+
+- b80438d: Fix next import
+- b80438d: Fix next import
+
 ## 1.0.4
 
 ### Patch Changes
