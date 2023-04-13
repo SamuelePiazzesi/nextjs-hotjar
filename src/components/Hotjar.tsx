@@ -15,7 +15,6 @@ export function Hotjar({ id, sv, strategy = "afterInteractive" }: HotJarProps) {
 	return (
 		<Script strategy={strategy}>
 			{`
-			<script>
     		(function(h,o,t,j,a,r){
         	h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         	h._hjSettings={hjid:${id},hjsv:${sv}}};
@@ -24,7 +23,6 @@ export function Hotjar({ id, sv, strategy = "afterInteractive" }: HotJarProps) {
         	r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         	a.appendChild(r);
     		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-			</script>
 			`}
 		</Script>
 	);
