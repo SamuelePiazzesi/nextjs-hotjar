@@ -1,5 +1,11 @@
 # nextjs-hotjar
 
+## 1.1.0
+
+### Minor Changes
+
+- 407095d: Update docs and exlude worker strategy
+
 ## 1.0.7
 
 ### Patch Changes
