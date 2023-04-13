@@ -1,5 +1,11 @@
 # nextjs-hotjar
 
+## 1.0.7
+
+### Patch Changes
+
+- c88cfe0: fix
+
 ## 1.0.6
 
 ### Patch Changes
