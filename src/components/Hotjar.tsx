@@ -9,11 +9,12 @@ type HotJarProps = {
 
 export interface WindowWithHotjar extends Window {
 	hj: (method: string, ...args: any[]) => void;
+	hjSiteSettings: Record<string, unknown>;
 }
 
 export function Hotjar({ id, sv, strategy = "afterInteractive" }: HotJarProps) {
 	return (
-		<Script strategy={strategy}>
+		<Script strategy={strategy} id="hotjar">
 			{`
     		(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
