@@ -1,5 +1,11 @@
 # nextjs-hotjar
 
+## 1.2.0
+
+### Minor Changes
+
+- 58566e7: add first test
+
 ## 1.1.0
 
 ### Minor Changes
